@@ -2,6 +2,8 @@
  * @param {number} n
  * @return {number}
  */
+
+
 function pickUpSticks(n) {
 	// Your code here
     var count = 0;
@@ -18,4 +20,14 @@ function pickUpSticks(n) {
     }
 }
 
-console.log(pickUpSticks(45))
+const rl = require('readline').createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
+
+rl.question('Nhập số que: ', input => {
+    let number = parseInt(input);
+    console.log(pickUpSticks(input))
+    rl.close();
+});
+
