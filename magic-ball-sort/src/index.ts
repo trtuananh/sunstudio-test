@@ -36,18 +36,18 @@ const run = async () => {
   }
 
   //? If you need fast verify
-//   gameManager.move(0, 3);
-//   gameManager.move(1, 3);
-//   gameManager.move(2, 1);
-//   gameManager.move(2, 0);
-//   gameManager.move(2, 3);
-//   gameManager.move(1, 2);
-//   gameManager.move(1, 2);
-//   gameManager.move(1, 3);
-//   gameManager.move(0, 1);
-//   gameManager.move(0, 2);
-//   gameManager.move(0, 1);
-//   gameManager.move(0, 1);
+   /*gameManager.move(0, 3);
+   gameManager.move(1, 3);
+   gameManager.move(2, 1);
+   gameManager.move(2, 0);
+   gameManager.move(2, 3);
+   gameManager.move(1, 2);
+   gameManager.move(1, 2);
+   gameManager.move(1, 3);
+   gameManager.move(0, 1);
+   gameManager.move(0, 2);
+   gameManager.move(0, 1);
+   gameManager.move(0, 1);*/
 };
 
 run();

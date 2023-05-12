@@ -1,6 +1,7 @@
 {
   "name": "magic-ball-sort",
   "version": "1.0.0",
+  "description": "",
   "sideEffects": false,
   "browserslist": "iOS >= 9, Android >= 5, Chrome >= 38 and not IE > 0 and not UCAndroid > 0 and not OperaMini > 0",
   "scripts": {
@@ -15,7 +16,5 @@
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.2"
-  },
-  "main": "index.js",
-  "description": ""
+  }
 }
